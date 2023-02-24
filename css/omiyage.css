@@ -1,0 +1,28 @@
+.cadeaux{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.boites{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    /* margin-right: 2%; */
+}
+.omiyage_ya{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width : 780px){
+    .cadeaux{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .boites, .omiyage_ya{
+        margin: 5% auto;
+        width: 80%;
+    }
+
+}

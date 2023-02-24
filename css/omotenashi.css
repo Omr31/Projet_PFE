@@ -1,0 +1,38 @@
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.mario{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    
+}
+.bienvenue{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+.omo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.dogeza{
+   
+    width: 40%;
+}
+@media screen and (max-width : 780px){
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .mario, .bienvenue{
+        margin: 3% auto;
+        width: 80%;
+    }
+
+}
+

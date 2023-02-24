@@ -1,0 +1,27 @@
+.all{
+    text-align: center;
+    margin-top: 5%;
+}
+.kokeshi, .ryokan, .matsuri{
+    width: 79%;
+    height: 510px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+#omiyage, #omotenashi, #fetes{
+    position: relative;
+    background-color: rgba(217, 217, 217, 0.63);
+    /* top: 80%; */
+    width: 79%;
+    height: 50px;
+    padding-top: 12px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10.5%;
+    top: -54px;
+    font-family: 'DM Serif Display';
+    color: #3e1905;
+}

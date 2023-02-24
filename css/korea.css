@@ -1,0 +1,319 @@
+h1{
+    text-align: center;
+    font-family: 'DM Serif Display';
+    margin-top: 2%;
+}
+.soustitre{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.palais{
+    width: 873px;
+    height: 460px;
+    margin-top: 3%;
+    box-shadow: 0 0 10px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.article1{
+    display: flex;
+    margin-top: 3%;
+}
+.article1 p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.seoultower{
+    width: 375px;
+    height: 484px;
+    box-shadow: 0 0 10px;
+    margin-right: 5%;
+    
+}
+.milieu{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.article2{
+    display: flex;
+    margin-top: 3%;
+}
+.article2 p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-right: 5%;
+    margin-left: 3%;
+    /* margin-top: 2%; */
+}
+.cerisier{
+    width: 400px;
+    height: 371px;
+    margin-left: 5%;
+    box-shadow: 0 0 10px;
+    
+}
+
+
+@media screen and (max-width : 992px){
+    header{
+        height: 233px;
+    }
+    a .logo{
+        margin-top: 44%;
+    
+    }
+    .titre{
+        margin-left: 16%;
+    }
+    .first{
+        margin-top: 7%;
+        position: relative;
+        left: -45px;
+    }
+    
+    .accroche{
+        font-size: 16px;
+        position: relative;
+        top: 48px;
+        left: -63px;
+        margin-right: 0;
+        text-align: center;
+
+    }
+    .burger{
+        border: 1px solid #EFB41B;
+        box-shadow: 0 0 8px white;
+        background-color: #EFB41B;
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 92%;
+    }
+    nav {
+        display: none;
+    }
+    .seoultower{
+        margin-top: 13%;
+    }
+    .cerisier{
+        margin-top: 9%;
+    }
+    .footer{
+        margin-top: 5%;
+    }
+    
+}   
+@media screen and (max-width : 895px){
+    .palais{
+        width: 700px;
+        height: 400px;
+    }
+    .description{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .seoultower{
+        margin-top: 22%;
+        margin-right: 3%;
+
+    }
+    
+    .article1 p{
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    .milieu{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .cerisier{
+        margin-top: 11%;
+        margin-left: 3%;
+        height: 400px;
+    }
+    .article2 p{
+        margin-right: 3%;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width : 720px){
+    .palais{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .description{
+        margin-top: 5%;
+    }
+    .article1{
+        display: flex;
+        /* flex-direction: column-reverse; */
+        margin-top: 0%;
+    }
+    .article1 p{
+        margin-top: 5%;
+    }
+    .seoultower{
+       margin: auto;
+       margin-top: 5%;
+       width: 415px;
+    }
+    .article2{
+        display: flex;
+        flex-direction: column;
+    }
+    .article2 p{
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .cerisier{
+        margin: auto;
+        width: 600px;
+        margin-top: 3%;
+    }
+    
+}
+@media screen and (max-width : 651px){
+    header{
+        height: 280px;
+    }
+    .titre{
+        margin-left: 16%;
+    }
+    a .logo{
+        margin-top: 27%;
+    }
+    .first{
+        margin-top: 12%;
+        position: relative;
+        left: -27px;
+    }
+    
+    .accroche{
+        font-size: 16px;
+        position: relative;
+        top: 12px;
+        left: -228px;
+        margin-right: 0;
+        text-align: left;
+
+    }
+    .burger{
+        border: 1px solid #EFB41B;
+        box-shadow: 0 0 8px white;
+        background-color: #EFB41B;
+        display: flex;
+        position: absolute;
+        top: 65px;
+        left: 90%;
+    }
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 500px){
+    header{
+        height: 280px;
+    }
+    .titre{
+        margin-left: 16%;
+    }
+    a .logo{
+        margin-top: 27%;
+    }
+    .first{
+        margin-top: 19%;
+        position: relative;
+        left: -27px;
+    }
+    
+    .accroche{
+        font-size: 16px;
+        position: relative;
+        top: 22px;
+        left: -194px;
+        margin-right: 0;
+        text-align: left;
+
+    }
+    .burger{
+        border: 1px solid #EFB41B;
+        box-shadow: 0 0 8px white;
+        background-color: #EFB41B;
+        display: flex;
+        position: absolute;
+        top: 65px;
+        left: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .palais{
+        width: 450px;
+    }
+    .description{
+        text-align: center;
+    }
+    .article1 p{
+        text-align: center;
+    }
+    .milieu{
+        text-align: center;
+    }
+    .article2 p{
+        text-align: center;
+    }
+    .cerisier{
+        width: 450px;
+        height: 350px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 1020px;
+        align-items: center;
+    }
+    .entete{
+        margin-left: 41px;
+    }
+    .ressources a {
+        margin-top: 50px;
+        margin-left: 41px;
+    }
+    .ressources{
+        margin-left: 41px;
+    }
+    .copyright{
+        position: relative;
+        bottom: -94%;
+        left: 20px;
+    }
+    .first_travel{
+        margin-top: 0px;
+    }
+    .contact{
+        margin-top: -67px;
+    }
+}
+
+

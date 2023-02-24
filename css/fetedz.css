@@ -1,0 +1,64 @@
+#nomfete{
+    font-family: 'DM Serif Display';
+    text-align: center;
+    margin-top: 3%; 
+    font-size: 1.8em;
+}
+.fetedz{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+   
+}
+.fetedz img{
+    box-shadow: 0 0 10px;
+}
+.logo_indp{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    /* margin-right: 2%; */
+}
+.independance{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+.freepik{
+    width: 30%;
+    height: 480px;
+    box-shadow: 0 0 10px
+}
+#lien{
+    position: relative;
+    left: 90%;
+    top: -25px;
+    color: white;
+    font-family: 'DM Sans';
+}
+#lien a{
+    text-decoration: none;
+    color: white;
+    
+}
+#lien a:hover{
+    color: #3e1905;
+}
+.yennayer1, .yennayer2{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width : 780px){
+    .fetedz{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .logo_indp, .independance, .tamina, .nir, .freepik, .yennayer, .yennayer1, .yennayer2{
+        margin: 5% auto;
+        width: 80%;
+    }
+    
+
+}

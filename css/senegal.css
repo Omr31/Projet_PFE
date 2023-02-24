@@ -1,0 +1,119 @@
+
+
+
+h1{
+    font-family: 'DM Serif Display';
+    text-align: center;
+    margin-top: 3%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.dakar{
+    width: 873px;
+    height: 298px;
+    box-shadow: 0 0 10px;
+}
+.haut{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.article1{
+    display: flex;
+    margin-top: 5%;
+
+}
+.article1 p{
+    font-family: 'DM Sans';
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.rue_senegal{
+    width: 25%;
+    height: 524px;
+    margin-left: 5%;
+    box-shadow: 0 0 10px;
+}
+.milieu{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.article2{
+    display: flex;
+    margin-top: 3%;
+}
+.article2 p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.cathedrale{
+    width: 23%;
+    height: 369px;
+    margin-right: 5%;
+    box-shadow: 0 0 10px;
+}
+
+@media screen and (max-width : 992px){
+    
+    .dakar{
+        width: 80%;
+    }
+    .article1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .article1 p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .rue_senegal{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .article2{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .article2 p{
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+    .cathedrale{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    
+} 
+@media screen and (max-width : 500px){
+   
+    .rue_senegal{
+        width: 80%;
+    }
+    .cathedrale{
+        width: 80%;
+    }
+    .haut, .milieu, .article1 p, .article2 p{
+        text-align: center;
+    }
+    .milieu{
+        margin-top: 5%;
+    }
+    .article2{
+        margin-top: 7%;
+    }
+    
+}

@@ -1,0 +1,49 @@
+nav{
+    background-color: rgb(148, 129, 129);
+    width: 15%;
+    height: 1200px;
+}
+.profil{
+    width: 40%;
+}
+#titre{
+    text-align: center;
+    padding-top: 2%;
+}
+.haut{
+    display: flex;
+}
+li{
+    margin-top: 5%;
+    list-style-type: none;
+}
+.ensemble{
+    display: flex;
+}
+.droite{
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    width: 90%;
+    /* margin-left: 50%; */
+    /* margin: 25% auto; */
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+tr, td{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}

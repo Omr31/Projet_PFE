@@ -1,0 +1,89 @@
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+hr {
+    margin-top: 13px;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid;
+}
+/* Ici c'est l'ensemble d'images */
+
+.pays1{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+.jardin, .place, .goree, .tokyotower, .seoul, .phuket{
+    height: 285px;
+    width: 500px;
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+}
+.pays2, .pays3{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.algerie{
+    background-color: rgba(217, 217, 217, 0.63);
+    text-align: center;
+    height: 50px;
+    padding-top: 12px;
+    position: relative;
+    top: 84%;
+    font-size: 24px;
+    border-radius: 0 0 10px 10px;
+}
+
+.maroc{
+    background-color: rgba(217, 217, 217, 0.63);
+    text-align: center;
+    height: 50px;
+    padding-top: 12px;
+    position: relative;
+    top: 84%;
+    font-size: 24px;
+    border-radius: 0 0 10px 10px;
+}
+.korea, .thailande, .japon,.senegal {
+    position: relative;
+    background-color: rgba(217, 217, 217, 0.63);
+    text-align: center;
+    top: 84%;
+    height: 50px;
+    padding-top: 12px;
+    font-size: 24px;
+    border-radius: 0 0 10px 10px;
+}
+.japon,.senegal{
+    top: 285px;
+    
+    
+}
+
+
+
+@media screen and (max-width: 1035px){
+    .pays1, .pays2, .pays3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .algerie, .maroc, .korea, .thailande{
+        position: relative;
+        top: 285px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+   
+    .jardin, .place, .tokyotower, .goree, .seoul,.phuket{
+        width: 400px
+    }
+}

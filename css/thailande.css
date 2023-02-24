@@ -1,0 +1,86 @@
+#bangkok{
+    width: 68%;
+    height: 448px;
+    box-shadow: 0 0 10px;
+}
+.bangkok{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+#haut{
+    font-family: 'DM Sans';
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+#soustexte, #milieu{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.phiphi{
+    display: flex;
+    margin-top: 3%;
+}
+.phiphi p{
+    font-family: 'DM Sans';
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+#phi_phi{
+    height: 384px;
+    width: 35%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px;
+}
+.phranang{
+    display: flex;
+    margin-top: 3%;
+}
+.phranang p{
+    font-family: 'DM Sans';
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+#phranang{
+    margin-left: 5%;
+    width: 68%;
+    height: 448px;
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width : 992px){
+    .phiphi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .phiphi p{
+        margin-top: 3%;
+    }
+    #phi_phi{
+        margin: 0 auto;
+        width: 55%;
+    }
+    .phranang{
+        display: flex;
+        flex-direction: column;
+    }
+    .phranang p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #phranang{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width : 500px){
+    #bangkok, #phi_phi, #phranang{
+        width: 90%;
+    }
+}

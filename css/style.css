@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3e1905;
+    width: 100%;
+    height: 209px;
+    
+    
+}
+a .logo{
+    max-height: 122.22px;
+    max-width: 120px;
+    margin-top: 29%;
+    margin-left: 25%;
+}
+.titre{
+    margin-right: 20%;
+    color: white;
+    margin-top: 2%;
+    
+   
+}   
+
+
+.first{
+    
+   padding-left: 25%;
+   font-size: 40px;
+   color: #EFB41B;
+   font-family: 'DM Serif Display';
+   padding-left: 30%;
+   
+}
+.accroche{
+    text-align: center;
+    margin-right: 30%;
+    font-family: 'DM Sans';
+    font-size: 24px;
+    padding-left: 15%;
+}
+nav{
+    height: 59px;
+    background-color: #CC835A;
+    font-family: 'DM Sans';
+    font-size: 22px;
+} 
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.burger{
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: #3e1905;
+}
+.slide{
+    
+    border: 1px solid;
+    width: 150px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 10px;
+    position: absolute;
+    left: -170px;
+    top: 0;
+    background: linear-gradient(360deg, #efb41bfc,#3e1905d1);
+}
+    
+
+.slide a{
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans';
+}
+.slide a:hover{
+    color: #F4A785;
+}
+.close:hover{
+    background-color: red;
+}
+.close{
+    position: absolute;
+    background-color: white;
+    top: 2px;
+    left: 124px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+#intro{
+    text-align: center;
+    font-family: 'DM Serif Display';
+    margin-top: 5%;
+    font-size: 1.8em;
+}
+.partie1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.ghardaia{
+    height: 462px;
+    width: 42%;
+    margin-right: 5%;
+
+    
+    box-shadow: 0 0 8px black;
+    border-radius: 10px;
+}
+.texte_gauche{
+    
+    margin-left: 10%;
+}
+.présentation{
+    font-family: 'DM Serif Display';
+    font-size: 32px;
+   
+}
+.aile{
+    background-image: url(../img/aile.jpg);
+    /* width: 100%; */
+    height: 378px;
+    background-attachment: fixed;
+    background-position-x: left;
+    background-position-y: center;
+    margin-top: 5%;
+    background-size: 100%;
+}
+
+#texte1{
+    
+    font-size: 20px;
+    font-family: 'DM Sans';
+   margin-left: 5%;
+   margin-right: 1%;
+   
+}
+.partie2{
+    display: flex;
+    margin-top: 5% ;
+   
+    
+}
+.fujisan {
+    height: 40%;
+    width: 500px;
+    margin-left: 5%;
+    
+    
+    box-shadow: 0 0 8px black;
+    border-radius: 10px;
+
+}
+.texte_droite{
+    margin-left: 7%;
+}
+.importance{
+    font-family: 'DM Serif Display';
+    font-size: 32px;
+}
+#texte2{
+    margin-left: 1%;
+    font-size: 20px;
+    font-family: 'DM Serif Sans';
+    margin-right: 5%;
+    font-family: 'DM Sans';
+}
+span{
+    color: #EFB41B;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;   
+}
+.footer{
+    background-color: #F4A785;
+    height: 100%;
+    
+    font-family: 'DM Sans';
+    margin-top: 2%;
+}
+.first_travel p, .contact p{
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+.entete{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact, .ressources{
+    display: flex;
+    flex-direction: column;
+}
+.first_travel{
+    margin-top: 18px;
+}
+.a{
+    
+    padding-top: 31px;
+    
+    font-size: 18px;
+} 
+
+
+.ressources{
+    justify-content: space-around;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    
+}
+.contact{
+    margin-top: 19px;
+}
+
+.adresse, .reseaux{
+    margin-top: 30%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: white;
+}
+.copyright{
+    font-family: 'DM Sans';
+    color: white;
+    
+    font-size: 16px;
+    text-align: center;
+}
+
+.icone {
+    display: flex;
+    margin-top: 10%;
+}
+.icone a{
+   margin-right: 2%;
+}   
+.notif{
+    width: 28%;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    position: fixed;
+    top: -400px;
+    left: 36%;
+    background-color: white;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+.inscription{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+#inscristoi{
+    margin-top: 2%;
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+}
+#si{
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'DM Sans';
+}
+.liens{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    border: 10px;
+    
+}
+#lien_inscr{
+    font-family: 'DM Sans';
+    color: blue;
+    text-decoration: none;
+}
+#cancel{
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans';
+}
+@media screen and (max-width : 992px){
+    header{
+        height: 233px;
+    }
+    a .logo{
+        margin-top: 44%;
+    
+    }
+    .titre{
+        margin-left: 16%;
+    }
+    .first{
+        margin-top: 7%;
+        position: relative;
+        left: -45px;
+    }
+    
+    .accroche{
+        font-size: 16px;
+        position: relative;
+        top: 48px;
+        left: -63px;
+        margin-right: 0;
+        text-align: center;
+
+    }
+    .burger{
+        border: 1px solid #EFB41B;
+        box-shadow: 0 0 8px white;
+        background-color: #EFB41B;
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 92%;
+    }
+    nav {
+        display: none;
+    }
+    .partie1{
+        display: flex;
+        flex-direction: column
+    }
+    #texte1{
+        text-align: center;
+        font-family: 'DM Sans';
+        font-size: 24px;
+    }
+    .ghardaia{
+        border: 1px solid black;
+        box-shadow: 0 0 5px black;
+        
+        width: 80%; 
+        margin: 5% auto;
+        border-radius: 10px;
+    
+    
+      
+    }
+    .partie2{
+        display: flex;
+        flex-direction: column;
+    }
+    #texte2{
+        text-align: center;
+        font-family: 'DM Sans';
+        font-size: 20px;
+
+    }
+    .fujisan{
+        height: 700px;
+        width: 70%;
+        margin: 5% auto;
+        border: 1px solid;
+        box-shadow: 0 0 8px black;
+        border-radius: 10px;
+     }
+   
+    .footer{
+        margin-top: 5%;
+       
+        
+    }
+    .a{
+        display: flex;
+    }
+    .aile{
+        background-repeat: no-repeat;
+    }
+    
+    
+
+
+} 
+@media screen and (max-width : 500px){
+    header{
+        height: 280px;
+    }
+    .titre{
+        margin-left: 16%;
+    }
+    a .logo{
+        margin-top: 27%;
+    }
+    .first{
+        margin-top: 19%;
+        position: relative;
+        left: -27px;
+    }
+    
+    .accroche{
+        font-size: 16px;
+        position: relative;
+        top: 22px;
+        left: -194px;
+        margin-right: 0;
+        text-align: left;
+
+    }
+    .burger{
+        border: 1px solid #EFB41B;
+        box-shadow: 0 0 8px white;
+        background-color: #EFB41B;
+        display: flex;
+        position: absolute;
+        top: 65px;
+        left: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .partie1{
+        display: flex;
+        flex-direction: column;
+    }
+    .ghardaia{
+        /* border: 1px solid black;
+        box-shadow: 0 0 5px black; */
+        margin: 0;
+        width: 90%;
+        margin-top: 5%;
+        /* border-radius: 10px; */
+        margin-left: 6%;
+        
+    }
+    .partie2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fujisan{
+        margin-top: 26px;
+        
+        border: 1px solid black;
+        box-shadow: 0 0 5px black;
+        border-radius: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+        height: 600px;
+    }
+    
+    .texte2, .texte1{
+       margin-left: 2%;
+       margin-right: 2%;
+    }
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #footer p{
+        margin-top: 5%;
+    }
+    .entete{
+        margin-left: 41px;
+    }
+    .ressources a {
+        margin-top: 50px;
+        margin-left: 41px;
+    }
+    .ressources{
+        margin-left: 41px;
+    }
+    .copyright{
+        position: relative;
+        bottom: -94%;
+        left: 20px;
+    }
+    .first_travel{
+        margin-top: 5%;
+    }
+    .aile{
+        
+        background-repeat: no-repeat;
+    }
+    
+}
+
+
+    
+   
+
+       
+   
+
+
+   
+

@@ -1,0 +1,28 @@
+.desert{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.chameau{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+.cheche{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width : 780px){
+    .desert{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .chameau, .cheche{
+        margin: 5% auto;
+        width: 80%;
+    }
+    
+
+}

@@ -1,0 +1,147 @@
+.moz, .cha, .kab{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#description{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'DM Sans';
+    font-size: 24px;
+    margin-top: 3%;
+   
+}
+.habits{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+#monsieur {
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    margin-right: 2%;
+    background-attachment: fixed;
+}
+#souk{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    background-attachment: fixed;
+}
+.environnement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    
+}
+.ahbess, .ahbess_plein, .alghabet{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 10px;
+    
+}
+.fete{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.tapis, .taghiat{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    background-attachment: fixed;
+}
+.taghiat{
+    margin-left: 2%;
+}
+.habits_chaouis{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.burnous{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    margin-right: 2%;
+}
+.melehfa{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    
+}
+.aures{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.ghoufi,.kheirane,.batna{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 10px;
+}
+.festival {
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    margin-right: 2%;
+}
+.yennayer{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+.habits_kabyles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.avernous{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    margin-right: 2%;
+}
+.robekabyle{
+    width: 20%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+.paysage_kabyle{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%; 
+}
+.djurdjura, .agouni, .olivier{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 10px;
+    
+}
+.bijou{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+    margin-right: 2%;
+}
+.poterie{
+    width: 40%;
+    height: 423px;
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width : 780px){
+    .habits, .environnement, .fete, .habits_chaouis, .aures, .habits_kabyles, .paysage_kabyle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    #monsieur, #souk, .ahbess, .ahbess_plein, .alghabet, .tapis, .taghiat, .burnous, .melehfa, .ghoufi, .kheirane, .batna, .festival, .yennayer, .avernous, .robekabyle, .djurdjura, .agouni, .olivier, .bijou, .poterie{
+        margin: 5% auto;
+        width: 80%;
+    }
+    
+
+}
